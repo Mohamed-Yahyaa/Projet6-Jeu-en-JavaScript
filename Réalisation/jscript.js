@@ -24,7 +24,7 @@ btn.addEventListener('click', function(){
                 output.innerHTML = 'Bravo, vous etes un Génie !!!'
                 }else{
                 if(nombreDeviner == number && attempt >=3){
-                    output.innerHTML ='Tbarklah eliiik, ' +attempt +" tentative" 
+                    output.innerHTML ='Bravo, ' +attempt +" tentative" 
                 }
                 }
                 
