@@ -1,6 +1,6 @@
 // declaration des variables 
 var btn;
-var sortie;
+var output;
 var nombre;
 var NombreDeviner;
 
@@ -28,7 +28,6 @@ btn.addEventListener('click', function(){
   } 
 
 });
-
 
 
 
