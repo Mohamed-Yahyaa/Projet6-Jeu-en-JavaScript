@@ -6,16 +6,15 @@ var numberDeviner;
  
 // sizer
   btn = document.getElementById("btn");
-  sortie = document.getElementById("sortietext");
+  output = document.getElementById("outputtext");
   nombre = Math.floor(Math.random () *100);
-
 //   traitment
 function play() {
-    numberDeviner = document.getElementById("userinput").value;
+    numberDeviner = document.getElementById('userinput').value;
     if (numberDeviner == nombre ){
         output.innerHTML = 'bravo'
     }else{
-        if (NombreDeviner < nombre){
+        if (numberDeviner < nombre){
             output.innerHTML = "le nombre que vous avez choisir est plus petit"
         }
         else {
@@ -28,5 +27,5 @@ function play() {
 
     }
 
-} 
+};
 
